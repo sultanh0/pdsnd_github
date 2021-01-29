@@ -16,5 +16,5 @@ New York City.
 Washington.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.youtube.com/watch?v=HVsySz-h9r4
+https://stackoverflow.com
