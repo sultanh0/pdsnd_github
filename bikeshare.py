@@ -112,8 +112,6 @@ def time_stats(df):
     print('Most Common hour:  ',hour)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*100)
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -204,6 +202,10 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         raw_data(df)
+
+restart = input('\nWould you like to restart? Enter yes or no.\n')
+        if restart.lower() != 'yes':
+            break
 
 if __name__ == "__main__":
 	main()
